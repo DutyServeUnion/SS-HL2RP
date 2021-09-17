@@ -1,0 +1,9 @@
+"minthl2rp"
+{
+	"title"			"MintHL2RP"
+	"author"		"Minty"
+	"description"	"Amogus."
+	"version"		"1.0"
+	"menusystem"	"1"
+	"workshopid"	"0"
+}
