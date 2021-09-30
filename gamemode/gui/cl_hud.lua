@@ -337,11 +337,11 @@ local function DrawStatusElements()
   -- Draw the player Steam profile image or character model image.
 
   if (RegisteredVGUI["avatar_image"] == nil) then
-    --PlayerImage = vgui.Create("AvatarImage");
-    --PlayerImage:SetPos(statbox_w - 45, statbox_y + 10);
-    --PlayerImage:SetSize(60, 60);
-    --PlayerImage:SetPlayer(LocalPlayer(), 60);
-    --PlayerImage:SetPaintBorderEnabled(true);
+    PlayerImage = vgui.Create("AvatarImage");
+    PlayerImage:SetPos(statbox_w - 45, statbox_y + 10);
+    PlayerImage:SetSize(60, 60);
+    PlayerImage:SetPlayer(LocalPlayer(), 60);
+    PlayerImage:SetPaintBorderEnabled(true);
 
     PlayerImage = vgui.Create("DModelPanel", EntSlide);
     PlayerImage:SetPos(statbox_w - 45, statbox_y + 10);
